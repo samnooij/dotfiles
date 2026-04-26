@@ -6,3 +6,4 @@ test -f /usr/share/ublue-os/bling/bling.fish && source /usr/share/ublue-os/bling
 ### bling.fish source end
 
 set -x EZA_ICONS_AUTO
+set -x DO_NOT_TRACK true

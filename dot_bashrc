@@ -29,3 +29,6 @@ test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/b
 
 # Enable ls icons
 export EZA_ICONS_AUTO
+
+# Set do not track environment variable
+export DO_NOT_TRACK=true
