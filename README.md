@@ -6,6 +6,12 @@ I borrowed some ideas from [boranuzun](https://github.com/boranuzun/dotfiles/tre
 who also wrote a nice blog article about
 [managing dotfiles](https://boranuzun.ch/blog/dotfiles-setup/).
 
+## Setup on new machine
+
+```bash
+chezmoi init --apply samnooij
+```
+
 ## Reminder to self: things that I think are nice to add in chezmoi
 
 - script to download and update 'hosts' file
