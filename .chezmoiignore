@@ -1,2 +1,3 @@
-# Readme does not need chezmoi tracking
+# These files need to chezmoi tracking and moving to home
+Brewfile
 README.md
