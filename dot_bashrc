@@ -27,6 +27,9 @@ unset rc
 test -f /usr/share/ublue-os/bling/bling.sh && source /usr/share/ublue-os/bling/bling.sh
 ### bling.sh source end
 
+# Add pixi to PATH
+export PATH="/var/home/sam/.pixi/bin:$PATH"
+
 # Enable ls icons
 export EZA_ICONS_AUTO
 

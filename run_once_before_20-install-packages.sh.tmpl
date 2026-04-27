@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+set -e
+
+# Detect distro
+. /etc/os-release
+
+if [ "$ID" = "bluefin" ]
+then
+    # Install packages from Brewfile
+    brew update
+    brew bundle --file="{{ .chezmoi.sourceDir }}/Brewfile"
+fi

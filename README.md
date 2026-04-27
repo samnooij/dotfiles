@@ -1,11 +1,16 @@
-Reminder, things that I think are nice to add in chezmoi:
+# dotfiles
+
+Personal dotfiles managed with [`chezmoi`](https://www.chezmoi.io/).
+
+I borrowed some ideas from [boranuzun](https://github.com/boranuzun/dotfiles/tree/main),
+who also wrote a nice blog article about
+[managing dotfiles](https://boranuzun.ch/blog/dotfiles-setup/).
+
+## Reminder to self: things that I think are nice to add in chezmoi
 
 - script to download and update 'hosts' file
 - DNS settings?
 - preferences (theme, etc.) for:
   - ptyxis
-  - VSCodium (flatpak)
   - Zen profile? (does it also work with extensions?)
-- git config: gpg sign
-- conky
-
+- conky?
