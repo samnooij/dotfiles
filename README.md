@@ -14,9 +14,6 @@ chezmoi init --apply samnooij
 
 ## Reminder to self: things that I think are nice to add in chezmoi
 
-- script to download and update 'hosts' file
-- DNS settings?
 - preferences (theme, etc.) for:
-  - ptyxis
   - Zen profile? (does it also work with extensions?)
 - conky?
