@@ -1,0 +1,6 @@
+packages:
+  bluefin:
+    brews:
+    - "fish"
+    - "onedrive-cli"
+    - "r-rig"

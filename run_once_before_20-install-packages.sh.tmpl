@@ -2,12 +2,12 @@
 
 set -e
 
-# Detect distro
-. /etc/os-release
-
-if [ "$ID" = "bluefin" ]
-then
-    # Install packages from Brewfile
-    brew update
-    brew bundle --file="{{ .chezmoi.sourceDir }}/Brewfile"
-fi
+{{ if eq .chezmoi.osRelease.id  "bluefin" -}}
+# Install packages with Brew
+brew update
+brew bundle --file=/dev/stdin <<EOF
+{{ range .packages.bluefin.brews -}}
+brew {{ . | quote }}
+{{ end -}}
+EOF
+{{ end -}}
